@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/first"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonadd"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="75dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="addıtıon"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/buttonsub"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="subtractıon"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/buttonmulti"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="multıpıcatıon"
+        android:textColor="@android:color/white" />
+</LinearLayout>
